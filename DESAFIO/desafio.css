@@ -16,11 +16,13 @@ h1{
     
 }
 img{
-    width: 100%;  
+    width: 100%;
+    animation: ft 2s ease-in 1;
+
 
 }
 img:hover{
-    animation: ft 2s ease-in 1;
+    animation: ft2 2s ease-in 1;
     width: 100%; 
     cursor: pointer;  
 }
@@ -131,8 +133,27 @@ button#botao:hover{
   
 @keyframes ft {
 
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
     100% {
-        transform: rotate(360deg);
+        transform: scale(1);
+    }
+    
+}
+@keyframes ft2 {
+
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
     }
     
 }
