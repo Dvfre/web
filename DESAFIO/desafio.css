@@ -1,0 +1,165 @@
+
+body{
+    background-color: #705124;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    padding: 3% 0% 0% 0%;
+    
+    
+}
+h1{
+    color: #F2C36B;
+    font-size: 2.8vw;
+    font-family: 'ADLaM Display', cursive;
+    text-align: center;
+    
+}
+img{
+    width: 100%;   
+
+}
+img:hover{
+    animation: ft 2s ease-in 1;
+    width: 100%;   
+}
+
+
+
+div#interface{
+    background-color: #ffffff;
+    display: flex;
+    padding: 1%;
+    width: 80%;
+    align-items: center;
+    border-radius: 20px;
+    
+    
+   
+}
+.esq{
+    padding: 5% 10% 6% 10%;
+    
+ 
+    
+}
+.dir{
+    padding: 10% 10% 10% 10%;
+    display: flex;
+    justify-content: center;
+    max-width: 25%;
+    min-width: 15%;
+
+    
+    
+     
+}
+form{
+    display: flex;
+    background-color: #F2C36B ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width:90%;
+    padding: 30% 50%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #646464;
+    
+}
+
+
+label#Login {
+    color: #705124;
+    background-color: none;
+    border-radius: 5%;
+    font-size: 2.8vw;
+    font-family: 'ADLaM Display', cursive;
+    text-align: center;
+
+
+}
+label{
+    color: #705124;
+    font-size: 1.75vw;
+    font-family: 'ADLaM Display', cursive;
+    text-align: center;
+    
+}
+
+input{
+    border-radius: 10px;
+    border: solid;
+    font-size: large;
+    height: 1.75vw;
+    width: 80%;
+    border-color: #000000;
+    
+}
+input:hover{
+    background-color: #FBAF19;
+    color: rgb(0, 0, 0);
+    border: solid;
+    height: 1.75vw;
+    width: 80%;
+}
+
+button#botao{
+    background-color: #705124;
+    color:#F2A71B;
+    margin: 5% 0%;
+    padding:5% 0% 5% 0%;
+    display: flex;
+    justify-content: center;
+    width:89%;
+    font-size: 1.75vw;
+    font-family: 'ADLaM Display', cursive;
+    border-radius: 10px;
+    transform:(-50%, -50%);
+    -ms-transform: (-50%, -50%);
+    cursor: pointer;
+    border: solid;
+    border-color: #000000;
+
+}
+button#botao:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-color: #000000;
+    
+}
+  
+@keyframes ft {
+
+    100% {
+        transform: rotate(360deg);
+    }
+    
+}
+@media screen and (max-width: 480px) {
+    div#interface{
+        margin: 0% 0% 0% 1%;
+        width: 100%;
+        display: flex;
+        flex-direction: column; 
+         
+    }
+    img{
+        border-radius: 50px;
+    }
+    h1{
+        font-size: 4vw;
+        
+    }
+    input{
+        height: 2.5vw;
+        width: 80%;
+    }
+    input:hover{
+        height: 2.5vw;
+        
+    }
+ 
+  
+}
+
+    

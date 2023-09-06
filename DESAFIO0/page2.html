@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fomulario teste</title>
+    </head>
+    <body>
+        <h1>Formulario de incrição</h1>
+        <fieldset>
+            <legend> Dados pessoais</legend>
+            <p>Nome: <input type="text" name="nome"></p>
+            <p>Endereço: <input type="text" name="endereco"></p>
+            <p>Telefone: <input type="text" name="telefone"></p>
+            <p>Cidade: <input type="text" name="cidade"></p>
+            <p>estado: 
+                <select name="estado">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AM">Amazonas</option>
+                </select>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <label> Natureza do Cargo <br>
+                <input type="radio" name="cargo" value="1"> Gerencia
+                <input type="radio" name="cargo" value="1"> Financeiro
+                <input type="radio" name="cargo" value="1"> Recepção
+                
+
+            </label><br>
+            <label> Area de interesse  <br>
+                <input type="checkbox" name="area1" value="com" checked> Computação
+                <input type="checkbox" name="area2" value="en"> Engernharia
+                <input type="checkbox" name="area3" value="bio"> Bioligia
+                
+
+            </label>
+            <p>Observações: <textarea name="obs" cols="30" rows="10"></textarea></p>
+            
+        </fieldset>
+    </body>
+</html>
