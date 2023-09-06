@@ -16,12 +16,13 @@ h1{
     
 }
 img{
-    width: 100%;   
+    width: 100%;  
 
 }
 img:hover{
     animation: ft 2s ease-in 1;
-    width: 100%;   
+    width: 100%; 
+    cursor: pointer;  
 }
 
 
