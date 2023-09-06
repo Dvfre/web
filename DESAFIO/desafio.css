@@ -1,12 +1,12 @@
 
 body{
-    background-color: #705124;
+   
     margin: 0px;
     display: flex;
     justify-content: center;
     padding: 3% 0% 0% 0%;
-    
-    
+    background: #705124 url("./img/SeriousSaitama.webp") repeat fixed top;
+    background-size: 700px;
 }
 h1{
     color: #F2C36B;
